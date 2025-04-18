@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int sum = 0;
+        String input;
+
+        while (true) {
+            input = sc.next();
+            if (input.equals("x")) {
+                break;
+            }
+            sum += Integer.parseInt(input);
+        }
+
+        System.out.println("Sum = " + sum);
+    }
+}
