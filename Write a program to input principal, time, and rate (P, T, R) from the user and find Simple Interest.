@@ -1,0 +1,6 @@
+class Solution {
+    double simpleInterest(int P, int R, int T) {
+        double SI = (P * T * R) / 100.0;
+        return SI;
+    }
+}
